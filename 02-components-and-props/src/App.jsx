@@ -25,6 +25,7 @@ function App() {
         description={`I'm a full-stack web developer. I am a senior programmer with
           good knowledge of fron-end adnd back-end techniques.`}
       />
+      <Card />
     </>
   );
 }

@@ -1,7 +1,11 @@
 import PropTypes from "prop-types";
 import Subrat from "../assets/IMG_20211226_222138306.jpg";
 
-const Card = ({ name, btnTxt, description }) => {
+const Card = ({
+  name = "CodeXP",
+  btnTxt = "Visit CodeXP",
+  description = "Welcome To CodeXP",
+}) => {
   return (
     <div className="relative h-[400px] w-[300px] rounded-md my-4">
       <img

@@ -6,11 +6,13 @@ function App() {
   const [count, setCount] = useState(0);
 
   const IncrementValue = () => {
-    setCount(count + 1);
+    setCount((prev) => prev + 1);
+    // setCount(count + 1);
   };
   const DecrementValue = () => {
     if (count === 0) return;
-    setCount(count - 1);
+    setCount((prev) => prev - 1);
+    // setCount(count - 1);
   };
   const Reset = () => {
     setCount(0);

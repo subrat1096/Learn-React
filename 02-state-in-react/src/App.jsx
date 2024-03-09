@@ -24,10 +24,10 @@ function App() {
       <div className="flex justify-center gap-2 text-xl font-semibold items-center my-4">
         <button
           type="button"
-          className=" bg-black text-white px-4 py-2 rounded-md"
+          className=" outline -outline-offset-2 px-4 py-2 rounded-md"
           onClick={DecrementValue}
         >
-          -
+          ➖
         </button>
         <button
           type="button"
@@ -38,10 +38,10 @@ function App() {
         </button>
         <button
           type="button"
-          className=" bg-black text-white px-4 py-2 rounded-md"
+          className=" outline -outline-offset-2 px-4 py-2 rounded-md"
           onClick={IncrementValue}
         >
-          +
+          ➕
         </button>
       </div>
     </>
